@@ -10,7 +10,7 @@ services:
       - backend
 
   backend:
-    image: nayerap/flask_live_app:1.0.0
+    image: francescoxx/flask_live_app:1.0.0
     ports:
       - "4000:4000"
     environment:
